@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body,
+html {
+  color: #f7ebeb;
+  background: linear-gradient(
+    to top right,
+    #0F0104,
+    #1c0620
+  ),#0F0104;
+  height: 100%;
+}
+
+h1{
+  @apply text-4xl font-bold;
+}
+
